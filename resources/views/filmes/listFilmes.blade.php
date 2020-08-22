@@ -45,7 +45,7 @@
 		<tr>
 			<td>{{$res['id']}}</td>
 			<td>
-				<a href="url('detalhe/{{$res['id']}}')">
+				<a href="detalhe/{{$res['id']}}">
 					<img src="https://image.tmdb.org/t/p/w500/{{$res['backdrop_path']}}" width='200'/>
 				</a> 
 			</td>
